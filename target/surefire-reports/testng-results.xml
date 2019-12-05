@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="66938" started-at="2019-12-04T23:40:19Z" finished-at="2019-12-04T23:41:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="66938" started-at="2019-12-04T23:40:19Z" finished-at="2019-12-04T23:41:26Z">
+      <class name="testcases.Testcase_Transferfunds">
+        <test-method status="PASS" signature="transferfunds()[pri:0, instance:testcases.Testcase_Transferfunds@436a4e4b]" name="transferfunds" duration-ms="14787" started-at="2019-12-04T23:40:19Z" finished-at="2019-12-04T23:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transferfunds -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:testcases.Testcase_Transferfunds@436a4e4b]" name="quitBrowser" is-config="true" duration-ms="782" started-at="2019-12-04T23:41:25Z" finished-at="2019-12-04T23:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testcases.Testcase_Transferfunds -->
+      <class name="testcases.Testcase_AddPAyee">
+        <test-method status="PASS" signature="validateAddPayee()[pri:0, instance:testcases.Testcase_AddPAyee@f2f2cc1]" name="validateAddPayee" duration-ms="14159" started-at="2019-12-04T23:40:34Z" finished-at="2019-12-04T23:40:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddPayee -->
+      </class> <!-- testcases.Testcase_AddPAyee -->
+      <class name="testcases.Testcase_Login">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testcases.Testcase_Login@3a079870]" name="login" duration-ms="12718" started-at="2019-12-04T23:40:49Z" data-provider="credential" finished-at="2019-12-04T23:41:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testcases.Testcase_Login@3a079870]" name="login" duration-ms="12002" started-at="2019-12-04T23:41:01Z" data-provider="credential" finished-at="2019-12-04T23:41:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testcases.Testcase_Login@3a079870]" name="login" duration-ms="11812" started-at="2019-12-04T23:41:13Z" data-provider="credential" finished-at="2019-12-04T23:41:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- testcases.Testcase_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
